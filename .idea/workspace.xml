@@ -4,25 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331f08de-addf-4281-9fa0-c5d7153bda99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web-app-manifest-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web-app-manifest-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_assets/fonts.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_assets/vars.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_ui/H1/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/meta.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/providers/mui-provider/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/robots.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/sitemap.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/theme/palette.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/theme/theme.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/theme/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    <list default="true" id="331f08de-addf-4281-9fa0-c5d7153bda99" name="Changes" comment="feat: core features">
+      <change afterPath="$PROJECT_DIR$/src/app/api/paraphrase/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ClearButton/ClearButton.styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ClearButton/ClearButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorAlert.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ParaphraseButton/ParaphraseButton.styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ParaphraseButton/ParaphraseButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ParaphraserBody.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ParaphraserCTA/ParaphraserCTA.styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ParaphraserCTA/ParaphraserCTA.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ParaphraserHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ParaphraserInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PasteOption/PasteOption.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SampleOption/SampleOption.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/apiRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/aiProvider.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/aiProviderFactory.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/aiService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/aiServiceInstance.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/providers/geminiProvider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/providers/openaiProvider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useParaphraser.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/clipboard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_assets/fonts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/fonts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_assets/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_assets/vars.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_ui/H1/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/mui-provider/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/mui-provider/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/theme/palette.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/colors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/theme/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/theme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/theme/types.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +65,9 @@
     &quot;accountId&quot;: &quot;6f017d20-67e4-4ee8-806f-cbc14c946c6e&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -54,16 +78,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Jest.useParaphraser.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/olena_ambitska/PhpstormProjects/justdone-test/public",
+    "last_opened_file_path": "/Users/olena_ambitska/PhpstormProjects/justdone-test/public/icons",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/Users/olena_ambitska/PhpstormProjects/justdone-test/node_modules/jest",
     "nodejs_package_manager_path": "npm",
     "to.speed.mode.migration.done": "true",
     "ts.external.directory.path": "/Users/olena_ambitska/PhpstormProjects/justdone-test/node_modules/typescript/lib",
@@ -72,14 +100,49 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/icons" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/app/_assets" />
-      <recent name="$PROJECT_DIR$/src/app" />
-      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/components/PasteOption" />
+      <recent name="$PROJECT_DIR$/src/components/SampleOption" />
+      <recent name="$PROJECT_DIR$/src/components/ParaphraseButton" />
+      <recent name="$PROJECT_DIR$/src/components/ClearButton" />
+      <recent name="$PROJECT_DIR$/src/core" />
     </key>
+  </component>
+  <component name="RunManager" selected="Jest.useParaphraser">
+    <configuration name="useParaphraser" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/tests/useParaphraser.test.ts" />
+      <test-names>
+        <test-name value="useParaphraser" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.useParaphraser" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -96,11 +159,26 @@
       <option name="presentableId" value="Default" />
       <updated>1764343776704</updated>
       <workItem from="1764343777968" duration="1559000" />
-      <workItem from="1764421326100" duration="12079000" />
+      <workItem from="1764421326100" duration="24244000" />
+      <workItem from="1764453004479" duration="39805000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: init project">
+      <option name="closed" value="true" />
+      <created>1764433850363</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764433850363</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: init project" />
+    <MESSAGE value="feat: core features" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: core features" />
   </component>
 </project>

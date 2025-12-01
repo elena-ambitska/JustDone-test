@@ -1,0 +1,1 @@
+export type ParaphraserState = "initial" | "input" | "loading" | "success" | "error";

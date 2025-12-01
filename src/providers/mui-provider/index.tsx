@@ -1,14 +1,16 @@
 "use client";
 
-import { ThemeProvider } from "@mui/material/styles";
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v16-appRouter';
 import { ReactNode } from "react";
-import {theme} from "@/app/theme/theme";
+import {ThemeProvider} from "@mui/material";
+import {theme} from "@/theme/theme";
 
 export default function MuiThemeProvider({ children }: { children: ReactNode }) {
     return (
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
-            <ThemeProvider theme={theme}>{children}</ThemeProvider>
+            <ThemeProvider theme={theme}>
+                {children}
+            </ThemeProvider>
         </AppRouterCacheProvider>
     );
 }

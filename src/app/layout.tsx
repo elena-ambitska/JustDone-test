@@ -1,7 +1,6 @@
 import type {Metadata} from "next";
-import {inter} from "@/app/_assets/fonts";
-import MuiThemeProvider from "@/app/providers/mui-provider";
-
+import MuiThemeProvider from "@/providers/mui-provider";
+import {inter} from "@/theme/fonts";
 
 export const metadata: Metadata = {
     title: 'AI Paraphrasing Tool',
@@ -29,7 +28,23 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-        <body className={inter.className}>
+        <head>
+            <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+            <link
+                rel="preload"
+                as="style"
+                href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+            />
+
+            <noscript>
+                <link
+                    rel="stylesheet"
+                    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+                />
+            </noscript>
+        </head>
+        <body className={inter.variable}>
         <MuiThemeProvider>
             {children}
         </MuiThemeProvider>
