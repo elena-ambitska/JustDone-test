@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
             },
         ],
        sitemap:
-           'https://just-done-test.vercel.app/',
+           'https://just-done-test.vercel.app/sitemap.xml',
     }
 
 }
