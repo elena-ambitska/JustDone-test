@@ -1,22 +1,21 @@
 "use client";
 
-import {useState, useEffect, useMemo} from "react";
-import { useParaphraser } from "@/hooks/useParaphraser";
+import {useState, useEffect} from "react";
+import {useParaphraser} from "@/hooks/useParaphraser";
 import ParaphraserInput from "@/components/ParaphraserInput";
 import ErrorAlert from "@/components/ErrorAlert";
 import {ParaphraserState} from "@/types";
 
 export default function ParaphraserBody() {
     const [text, setText] = useState("");
-    const { paraphrase, reset, loading, error, result } = useParaphraser();
+    const {paraphrase, reset, loading, error, result} = useParaphraser();
 
-    const state = useMemo<ParaphraserState>(() => {
-        if (loading) return "loading";
-        if (error) return "error";
-        if (result) return "success";
-        if (text.trim()) return "input";
-        return "initial";
-    }, [text, loading, error, result]);
+    const state: ParaphraserState =
+        loading ? "loading" :
+            error ? "error" :
+                result ? "success" :
+                    text.trim() ? "input" :
+                        "initial";
 
     useEffect(() => {
         if (result) {
@@ -40,7 +39,7 @@ export default function ParaphraserBody() {
                 onClear={handleClear}
             />
 
-            {state === "error" && <ErrorAlert message={error ?? "Error"} />}
+            {state === "error" && <ErrorAlert message={error ?? "Error"}/>}
         </>
     );
 }
