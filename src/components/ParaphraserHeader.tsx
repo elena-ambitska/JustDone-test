@@ -9,17 +9,16 @@ export default function ParaphraserHeader() {
                 textAlign="center"
                 color="black"
                 component="h1"
-                sx={{ fontSize: { xs: "2rem", md: "3rem" } }}
             >
                 AI Text Paraphraser by JustDone
             </Typography>
 
             <Typography
                 variant="h2"
-                fontWeight={400}
+                fontWeight={500}
                 textAlign="center"
                 color="black"
-                sx={{ fontSize: { xs: "1rem", md: "1.5rem" } }}
+                sx={{ fontSize: "22px" }}
             >
                 Transform your writing from good to great with our Paraphraser tool.
             </Typography>

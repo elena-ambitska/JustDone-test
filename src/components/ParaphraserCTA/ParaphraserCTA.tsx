@@ -25,6 +25,7 @@ export default function ParaphraserCTA({
             <ParaphraseButton
                 disabled={state === "initial" || !value.trim()}
                 onClick={onParaphrase}
+                loading={state === "loading"}
             />
         </CTAContainer>
     );

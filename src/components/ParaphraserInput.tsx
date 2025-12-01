@@ -41,7 +41,7 @@ export default function ParaphraserInput({
             <InnerSection>
 
                 {(state === "initial") && (
-                    <Stack direction="row" spacing={2} sx={{ maxWidth: "400px", width: "100%", justifyContent: "center",  zIndex: 2}}>
+                    <Stack direction="row" spacing={2} sx={{ maxWidth: "400px", width: "100%", justifyContent: "center", gap: "8px", zIndex: 2, position: "absolute", top: "50%",  transform: "translateY(-50%)"}}>
                         <PasteOption onClick={handlePasteClick} />
                         <SampleOption onClick={handleSampleText} />
                     </Stack>

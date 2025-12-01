@@ -11,9 +11,13 @@ export const theme = createTheme({
         error: {
             main: colors.red,
         },
+        secondary: {
+            main: colors.neutral[60],
+            dark: colors.neutral[40],
+        },
         background: {
             default: colors.white,
-            paper: colors.neutral[60],
+            paper: colors.neutral[80],
         },
         text: {
             primary: colors.black,

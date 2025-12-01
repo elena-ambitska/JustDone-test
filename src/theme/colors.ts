@@ -6,6 +6,7 @@ export const colors = {
         30: '#76777A',
         60: '#DBDCDF',
         80: '#EEF0F5',
+        40: '#AEAFB1',
     },
 
     primary: {

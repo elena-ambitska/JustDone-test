@@ -41,8 +41,8 @@ export const StyledTextarea = styled("textarea", {
     backgroundColor: hasText
         ? theme.palette.background.default
         : theme.palette.background.paper,
-    fontSize: "16px",
-    lineHeight: "1.6",
+    fontSize: "1rem",
+    lineHeight: "1",
     paddingTop: "12px",
     paddingBottom: "12px",
     paddingLeft: theme.spacing(2),
@@ -56,33 +56,46 @@ export const StyledTextarea = styled("textarea", {
     overflowY: "auto",
     overflowX: "hidden",
     boxSizing: "border-box",
+    color: theme.palette.text.primary,
+    borderRadius: "28px 28px 0 0",
 
     "&::placeholder": {
-        color: theme.palette.grey[600],
-        fontSize: "14px",
+        fontSize: "1rem",
         fontFamily: "Inter",
         opacity: 1,
+        color: theme.palette.text.secondary,
     },
 
     "&:disabled": {
         opacity: 0.6,
+    },
+
+    "&:active, &:focus": {
+        border: `1px solid ${theme.palette.primary.main}`,
     },
 }));
 
 export const OptionItem = styled(Button)(({ theme }) => ({
     flex: 1,
     display: "flex",
+    gap: theme.spacing(1),
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
-    gap: theme.spacing(1),
-    padding: theme.spacing(2, 2, 4, 2),
+    padding: theme.spacing(2, 1),
     backgroundColor: theme.palette.common.white,
-    border: `1px solid ${theme.palette.grey[300]}`,
+    border: `1px solid ${theme.palette.secondary.main}`,
     borderRadius: "11px",
     cursor: "pointer",
+    textTransform: "none",
+    color: theme.palette.text.secondary,
+    height: "fit-content",
+
+    "&:last-child": {
+        marginLeft: 0,
+    },
 
     "&:hover": {
-        backgroundColor: theme.palette.grey[50],
+        border: `1px solid ${theme.palette.primary.main}`,
     },
 }));

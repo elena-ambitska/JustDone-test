@@ -7,7 +7,7 @@ interface ParaphraserLayoutProps {
 
 export default function HumanizerLanding({ children }: ParaphraserLayoutProps) {
     return (
-        <Container>
+        <Container sx={{paddingTop: "16px", position: "relative"}}>
             <Stack spacing={5} alignItems="center">
                 {children}
             </Stack>
