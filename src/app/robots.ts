@@ -9,8 +9,7 @@ export default function robots(): MetadataRoute.Robots {
             },
         ],
        sitemap:
-       // TODO: Replace with production domain before release
-           'http://localhost:3000/sitemap.xml',
+           ' https://just-done-ai.web.app',
     }
 
 }

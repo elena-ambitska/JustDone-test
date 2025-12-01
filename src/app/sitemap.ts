@@ -4,8 +4,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     return [
         {
             url:
-            // TODO: Replace with production domain before release
-            'http://localhost:3000',
+            'https://just-done-ai.web.app',
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 1,
