@@ -4,7 +4,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     return [
         {
             url:
-            'https://just-done-ai.web.app',
+            'https://just-done-test.vercel.app/',
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 1,

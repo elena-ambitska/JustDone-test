@@ -2,7 +2,7 @@
 
 This project is a web application that paraphrases text using AI providers (OpenAI and Google Gemini). 
 
-https://just-done-ai.web.app
+https://just-done-test.vercel.app/
 ---
 
 ## 📌 1. Environment Setup
