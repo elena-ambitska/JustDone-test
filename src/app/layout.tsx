@@ -44,7 +44,7 @@ export default function RootLayout({
                 />
             </noscript>
         </head>
-        <body className={inter.variable}>
+        <body className={inter.className}>
         <MuiThemeProvider>
             {children}
         </MuiThemeProvider>

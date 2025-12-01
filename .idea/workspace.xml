@@ -5,45 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="331f08de-addf-4281-9fa0-c5d7153bda99" name="Changes" comment="feat: core features">
-      <change afterPath="$PROJECT_DIR$/src/app/api/paraphrase/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ClearButton/ClearButton.styles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ClearButton/ClearButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ErrorAlert.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ParaphraseButton/ParaphraseButton.styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ParaphraseButton/ParaphraseButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ParaphraserBody.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ParaphraserCTA/ParaphraserCTA.styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ParaphraserCTA/ParaphraserCTA.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ParaphraserHeader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ParaphraserInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PasteOption/PasteOption.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SampleOption/SampleOption.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/apiRoutes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/aiProvider.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/aiProviderFactory.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/aiService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/aiServiceInstance.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/providers/geminiProvider.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/providers/openaiProvider.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useParaphraser.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/clipboard.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_assets/fonts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/fonts.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_assets/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_assets/vars.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_ui/H1/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/paraphrase/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/paraphrase/route.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/mui-provider/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/mui-provider/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/theme/palette.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/colors.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/theme/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/theme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/theme/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ParaphraserHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ParaphraserHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/fonts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/fonts.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +126,7 @@
       <updated>1764343776704</updated>
       <workItem from="1764343777968" duration="1559000" />
       <workItem from="1764421326100" duration="24244000" />
-      <workItem from="1764453004479" duration="39805000" />
+      <workItem from="1764453004479" duration="40698000" />
     </task>
     <task id="LOCAL-00001" summary="feat: init project">
       <option name="closed" value="true" />
@@ -170,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764433850363</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: core features">
+      <option name="closed" value="true" />
+      <created>1764553197251</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764553197252</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

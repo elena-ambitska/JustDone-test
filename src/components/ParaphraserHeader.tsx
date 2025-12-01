@@ -15,7 +15,7 @@ export default function ParaphraserHeader() {
             </Typography>
 
             <Typography
-                variant="h5"
+                variant="h2"
                 fontWeight={400}
                 textAlign="center"
                 color="black"

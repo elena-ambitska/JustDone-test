@@ -6,4 +6,5 @@ export const inter = Inter({
     style: ['normal'],
     variable: "--font-inter",
     display: "swap",
+    preload: true
 });
