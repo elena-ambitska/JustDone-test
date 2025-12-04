@@ -6,7 +6,6 @@ import {GeminiProvider} from "@/core/providers/geminiProvider";
 export function createProviders(): IAIProvider[] {
     const providers: IAIProvider[] = [];
 
-    console.log("[AIProviderFactory]", process.env.NEXT_PUBLIC_OPENAI_API_KEY);
     if (process.env.NEXT_PUBLIC_OPENAI_API_KEY) {
         providers.push(new OpenAIProvider(process.env.NEXT_PUBLIC_OPENAI_API_KEY));
     } else {
